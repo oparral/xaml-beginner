@@ -21,22 +21,27 @@
         <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" 
                    HorizontalAlignment="Center"
                    VerticalAlignment="Bottom"
-                   Text="Restaurant Manager" />
+                   Text="Restaurant Manager"
+                   />
 
         <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" 
                    HorizontalAlignment="Center"
-                   VerticalAlignment="Bottom"
+                   VerticalAlignment="Bottom" FontSize="22"
                    Text="Internal Test Version" />
 
-        <TextBlock Grid.Row="2" Grid.Column="0" 
+        <Button Grid.Row="2" Grid.Column="0" 
                    HorizontalAlignment="Center"
                    VerticalAlignment="Center"
-                   Text="**Go to orders view**" />
+                   Content="Go to orders view" 
+                Click="ExpeditureButton_Click"
+                />
 
-        <TextBlock Grid.Row="2" Grid.Column="1" 
+        <Button Grid.Row="2" Grid.Column="1" 
                    HorizontalAlignment="Center"
                    VerticalAlignment="Center"
-                   Text="**Submit Order**" />
+                   Content="Submit Order"
+                Click="OrderButton_Click"
+                />
 
 
     </Grid>
